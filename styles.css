@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  z-index: -10;
+  background-color: #e0e8ff;
+}
+
+.bg-image {
+  z-index: -10;
+  position: absolute;
+  width: 100vw;
+}
+
+.card-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-base {
+  width: 425px;
+  height: 650px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-component {
+  background-color: white;
+}
+
+.card-image {
+  width: 425px;
+  height: 220px;
+  border-radius: 15px 15px 0 0;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-top: 2.4rem;
+  color: rgb(39, 39, 39);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 1.07rem;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 0 auto;
+  width: 325px;
+  height: 85px;
+  background-color: rgba(236, 238, 250, 0.4);
+  border-radius: 15px;
+  position: relative;
+}
+
+.music-icon {
+  position: absolute;
+  margin-left: -13rem;
+}
+
+.annual-plan {
+  position: absolute;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 900;
+  margin-top: -2rem;
+  margin-left: -2.5rem;
+}
+
+.price {
+  position: absolute;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  margin-left: -2.8rem;
+}
+
+.change {
+  position: absolute;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  margin-left: 13rem;
+  font-size: 0.9rem;
+}
+
+.change:hover {
+  opacity: 0.8;
+}
+
+.button {
+  position: absolute;
+  margin-top: 11rem;
+}
+
+.payment-button {
+  background-color: hsl(245, 75%, 52%);
+  color: rgb(231, 231, 231);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.8rem 5.6rem;
+  border-radius: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: hsl(245, 66%, 58%);
+  opacity: 0.8;
+}
+
+.cancel {
+  position: absolute;
+  margin: 18rem auto 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.cancel:hover {
+  opacity: 1;
+  cursor: pointer;
+}
